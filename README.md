@@ -5,9 +5,11 @@ Scrap company information from g2.com, given a list of companies
 Run g2_scraper.ipynb
 
 ## Logic
-Use selenium to mimic a real user's behavior, and scrap from g2.com.
+When I first tried to search for the companies on g2, by myself, I was shocked that I can't find most of them. And many of the companies I found are not the same company as in the original file. But I think this is the case in real work, and it's not a bug. 
 
-To retrieve the information needed, I maily used the XPath of the elements on g2. I simulated some behaviors to retrieve hidden information. I cleaned some unwanted information that come with that ('show less').
+I used selenium to mimic a real user's behavior, and scrap from g2.com.
+
+To retrieve the information needed, I maily used the XPath of the elements on g2. I simulated some clicks to retrieve hidden information. I cleaned some unwanted information that come with that ('show less').
 
 I saved the scraped information to a list, and transformed it to a dataframe. Then joined it with the original file.
 
