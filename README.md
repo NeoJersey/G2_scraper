@@ -6,7 +6,9 @@ Run g2_scraper.ipynb
 
 ## Logic
 Use selenium to mimic a real user's behavior, and scrap from g2.com.
+
 To retrieve the information needed, I maily used the XPath of the elements on g2. I simulated some behaviors to retrieve hidden information. I cleaned some unwanted information that come with that ('show less').
+
 I saved the scraped information to a list, and transformed it to a dataframe. Then joined it with the original file.
 
 ## Known Problems
